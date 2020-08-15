@@ -66,8 +66,8 @@ nav ul li {
     background-position: center;
 }
 
-/* This section contains the main content. It contains 3 articles. */
-section{
+/* This section contains the main content. It contains 3 articles or sub-sections. */
+section {
     width: 75%;
     display: inline-block;
     margin-left: 26px;
@@ -83,7 +83,7 @@ article {
     position: relative;
 }
 
-article, article header{
+article, article header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -107,12 +107,12 @@ article, article header{
     margin-left: 25px;
 }
 
-article header{
+article header { 
     width: 70%;
     margin-top: -20px;
 }
 
-article img{
+article img {
    position: absolute;
    width: 25%;
    max-width: 310px;
@@ -143,7 +143,7 @@ aside {
 }
 
 /* The sub-sections of the aside section */
-aside div{
+aside div {
     margin-bottom: 36px;
     color: #ffffff;
 }
